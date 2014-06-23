@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Fuel Consumption Predictor</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Fuel Consumption Predictor">
+	<meta name="author" content="Karthik Tadinada">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
+</head>
+<body class="list">
+  <header class="caption">
+  	<h1>Fuel Consumption Predictor</h1>
+	</header>
+  <section class="slide " id="slide-1">
+  <div>
+    <h2>How much for my classic car grace a rally?</h2>
+    <ul>
+<li>Do you own a Pontiac Firebird, Porsche 914-2 or other classic car?</li>
+<li>Or another classic from the 70s, but no reliable MPG figures?</li>
+<li>No Problem!</li>
+<li>My app uses a regression fit on measured MPG figures from the 70s</li>
+<li>Just enter horsepower and transmission type and the app does the rest</li>
+<li>Get MPG value and a graph of cost against distance</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-2">
+  <div>
+    <h2>The app in action</h2>
+    <p>Results are for a car with 250 HP and manual transmission</p>
+
+<pre><code>## [1] &quot;Predicted MPG is  17.14&quot;
+</code></pre>
+
+<p><img src="figure/unnamed-chunk-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" /></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>The science</h2>
+    <ul>
+<li>The model was fitted by a super duper advanced degree holder doing super complicated math</li>
+<li>Use <em>two</em> whole predictors: horespower and type of transmission</li>
+<li>This was based off work done in the regression models class</li>
+<li>Lots of variables in the data set are highly correlated</li>
+<li>It stands to reason for example that the displacement of the engine, number of cylinders, horsepower and quarter mile times are all closely linked</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>Profitability Strategy for app</h2>
+    <ul>
+<li>App does something useful!</li>
+<li>Certainly more info than a single &#39;Yo&#39;</li>
+<li>Key seems to be &quot;Make it Social&quot;</li>
+</ul>
+
+  </div>
+</section>
+<section class="slide " id="slide-5">
+  <div>
+    <h2>Further work, or as they say in the &#39;valley&#39; Possible Pivots</h2>
+    <ul>
+<li>It would also be useful to use the data set to predict quarter mile times using horsepower and weight as predictors</li>
+<li>As always, with all statistics the solution is almost always Get More Data</li>
+</ul>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>
