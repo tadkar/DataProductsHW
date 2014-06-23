@@ -12,7 +12,7 @@ knit        : slidify::knit2slides
 ---
 
 
-## How much for my classic car grace a rally?
+## How much for my classic car to grace a rally?
 
 + Do you own a Pontiac Firebird, Porsche 914-2 or other classic car?
 + Or another classic from the 70s, but no reliable MPG figures?
@@ -52,6 +52,6 @@ Results are for a car with 250 HP and manual transmission
 ---
 ## Further work, or as they say in the 'valley' Possible Pivots
 + It would also be useful to use the data set to predict quarter mile times using horsepower and weight as predictors
-+ As always, with all statistics the solution is almost always Get More Data
++ As always, with all statistics : Get More Data
 
 
